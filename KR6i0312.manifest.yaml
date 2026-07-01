@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6i0312/v1
+canonical_location: https://kanripo.org/bkk/KR6i0312/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金光明經文句科
+  identifiers:
+    alt_id:
+    - X20n0357
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X20/X20n0357.xml
+    old_id: X20n0357
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0312_000.yaml, hash: 'sha256:3579adb6c0cf0b7df66376f31a51ad2a64a4faaca204c359145fc586fea3dbb4'}
+  - {seq: 1, filename: KR6i0312_001.yaml, hash: 'sha256:5db5297375aa0034aaaf39eba3b00cb888d5c086c82da39b1203f389a6a3c427'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0312_001.markers.yaml, hash: 'sha256:73859d10c5274da63effdcfbea5a8caef2e3464a89987913a7906bf6a8247643'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0312_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 19434
+  label: 金光明經文句科
+  type: juan
+  level: 1
+hash: sha256:14d21b59a43ab48ba698917f4223c122218d19cb7f9323a8ef3894ef9129b460
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

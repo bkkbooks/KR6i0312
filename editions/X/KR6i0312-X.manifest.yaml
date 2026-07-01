@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0312/X/v1
+canonical_location: https://kanripo.org/bkk/KR6i0312/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金光明經文句科
+  identifiers:
+    krp: KR6i0312
+    cbeta: X20n0357
+    cbeta_old_id: X20n0357
+    authorityid: CA0001784
+    json_key: X0357
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X20/X20n0357.xml
+    old_id: X20n0357
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0312_000-X.yaml, hash: 'sha256:3579adb6c0cf0b7df66376f31a51ad2a64a4faaca204c359145fc586fea3dbb4'}
+  - {seq: 1, filename: KR6i0312_001-X.yaml, hash: 'sha256:ce5870578c477e0f679bf593dbec1e8571401657932d897fe896a39508b0fd1c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0312_000-X.markers.yaml, hash: 'sha256:19dbef1bc1d62dfe0b7603de8df866a25a084465b3a39b01990850a1eb7c9d39'}
+  - {seq: 1, role: markers, filename: assets/KR6i0312_001-X.markers.yaml, hash: 'sha256:6e08b629913f325b3d5134d4e60664fcd592ab7dab9cf719f80f56aa6e4c3f68'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0312_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 19434
+  label: 金光明經文句科
+  type: juan
+  level: 1
+hash: sha256:3f176022df4f1e7ac57d0c7c988f9d7b8fd2b5edd32c9c449e737ea65157e905
