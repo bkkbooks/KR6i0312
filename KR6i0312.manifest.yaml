@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0312_000.yaml, hash: 'sha256:3579adb6c0cf0b7df66376f31a51ad2a64a4faaca204c359145fc586fea3dbb4'}
-  - {seq: 1, filename: KR6i0312_001.yaml, hash: 'sha256:5db5297375aa0034aaaf39eba3b00cb888d5c086c82da39b1203f389a6a3c427'}
+  - {seq: 1, filename: KR6i0312_001.yaml, hash: 'sha256:ce5870578c477e0f679bf593dbec1e8571401657932d897fe896a39508b0fd1c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0312_001.markers.yaml, hash: 'sha256:73859d10c5274da63effdcfbea5a8caef2e3464a89987913a7906bf6a8247643'}
+  - {seq: 0, role: markers, filename: assets/KR6i0312_000.markers.yaml, hash: 'sha256:9423e8d8501619a9719d597d1bea32ea523cd015a985024fb67dceaed275da89'}
+  - {seq: 1, role: markers, filename: assets/KR6i0312_001.markers.yaml, hash: 'sha256:ee432f46508670cfa72516e9b3d6b3e5132210538c4f9ee1e811a0b80a52a685'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 金光明經文句科
   type: juan
   level: 1
-hash: sha256:14d21b59a43ab48ba698917f4223c122218d19cb7f9323a8ef3894ef9129b460
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:2c8793388e8a1bb65b12c392a1e2133c99af80cfc50cf400481106dc129ee43f
